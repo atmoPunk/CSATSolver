@@ -1,0 +1,17 @@
+# test
+# 3 inputs
+# 1 output
+
+INPUT(X1)
+INPUT(X2)
+INPUT(X3)
+
+OUTPUT(Y)
+
+G1 = NOT(X1)
+G2 = NOT(X2)
+G3 = AND(G1, X2)
+G4 = AND(X1, G2)
+G5 = OR(G3, G4)
+G6 = AND(G2, X3)
+Y = OR(G5, G6)

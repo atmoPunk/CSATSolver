@@ -1,0 +1,8 @@
+INPUT(X1)
+INPUT(X2)
+INPUT(X3)
+INPUT(X4)
+
+OUTPUT(Y)
+
+Y = OR(X1, X2,  X3   ,  X4)

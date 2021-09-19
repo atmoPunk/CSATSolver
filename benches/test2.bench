@@ -1,0 +1,31 @@
+# EDA Challenge 2021 (www.eda-ai.org)
+# 
+# Statistical Information
+#
+# Input Nodes                 : 5
+# Output Nodes                : 1
+# Internal Nodes              : 8
+#
+# NAND                        : 8
+#     NAND2                   : 5
+#     NAND3                   : 3
+#
+
+
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+INPUT(4)
+INPUT(5)
+
+OUTPUT(6)
+
+7 = NAND(1, 2, 3)
+8 = NAND(3, 4, 5)
+9 = NAND(1, 5)
+10 = NAND(2, 8)
+11 = NAND(7, 4)
+12 = NAND(3, 8, 9)
+13 = NAND(10, 11)
+6 = NAND(12, 13)

@@ -1,0 +1,7 @@
+INPUT(1)
+INPUT(2)
+INPUT(3)
+INPUT(4)
+OUTPUT(5)
+
+5 = XOR(1, 2, 3, 4)

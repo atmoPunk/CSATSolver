@@ -1,0 +1,30 @@
+# EDA Challenge 2021 (www.eda-ai.org)
+# 
+# Statistical Information
+#
+# Input Nodes                 : 5
+# Output Nodes                : 1
+# Internal Nodes              : 5
+#
+# AND                         : 1
+# NAND                        : 1
+# NOR                         : 1
+# OR                          : 1
+# XOR                         : 1
+#
+
+
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+INPUT(4)
+INPUT(5)
+
+OUTPUT(6)
+
+7 = AND(1, 2)
+8 = OR(3, 4)
+9 = NOR(7, 5)
+10 = NAND(7, 8)
+6 = XOR(9, 10)

@@ -1,0 +1,9 @@
+INPUT(A)
+INPUT(B)
+
+OUTPUT(F)
+
+C = OR(A, B)
+D = NOR(A, B)
+E = OR(C, D)
+F = NOT(E)
